@@ -48,6 +48,10 @@ html,body{
 	font-size: 100%;
 }
 
+a{
+	text-decoration: none;
+}
+
 img{
 	display: block;
 	max-width: 100%;
@@ -60,6 +64,14 @@ img{
 }
 
 body{
+	background-image: -webkit-radial-gradient(center, #95FF05, #355427);
+	background-image: -moz-radial-gradient(center, #95FF05, #355427);
+	background-image: -o-radial-gradient(center, #95FF05, #355427);
+	background-image: radial-gradient(center, #95FF05, #355427);
+}
+
+main{
+	height: 100%;
 	-webkit-display: flex;
 	-moz-display: flex;
 	-o-display: flex;
@@ -79,11 +91,32 @@ body{
 	-moz-flex-wrap: wrap;
 	-o-flex-wrap: wrap;
 	flex-wrap: wrap;
+}
 
-	background-image: -webkit-radial-gradient(center, #95FF05, #355427);
-	background-image: -moz-radial-gradient(center, #95FF05, #355427);
-	background-image: -o-radial-gradient(center, #95FF05, #355427);
-	background-image: radial-gradient(center, #95FF05, #355427);
+.social{
+	position: absolute;
+	bottom: 1rem;
+	left: 1rem;
+}
+.social a{
+	margin: 0 .25rem;
+}
+.social a i{
+	color: #E6F1EB;
+	font-size: 2rem;
+	-webkit-transition: all .25s ease;
+	   -moz-transition: all .25s ease;
+	    -ms-transition: all .25s ease;
+	     -o-transition: all .25s ease;
+	        transition: all .25s ease;
+}
+.social a i:hover{
+	color: #95FF05;
+	-webkit-transform: scale(.9);
+	   -moz-transform: scale(.9);
+	    -ms-transform: scale(.9);
+	     -o-transform: scale(.9);
+	        transform: scale(.9);
 }
 
 @keyframes scaleIn{
