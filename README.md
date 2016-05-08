@@ -8,4 +8,4 @@ Tecnologías Usadas
 * CSS3
 * JavaScript
 
-Alojada en los servidores de Bitbucket. [ver página](art3soft.bitbucket.org)
+Alojada en los servidores de Bitbucket. [ver página](http://art3soft.bitbucket.org)
