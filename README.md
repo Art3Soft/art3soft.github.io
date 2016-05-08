@@ -1,3 +1,11 @@
-# art3soft.github.io
+#Art 3 Soft
 
-WebSite
+## Página Web v0.1 
+
+Tecnologías Usadas
+
+* HTML5
+* CSS3
+* JavaScript
+
+Alojada en los servidores de Bitbucket. [ver página](art3soft.bitbucket.org)
