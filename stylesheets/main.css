@@ -72,6 +72,8 @@ body{
 
 main{
 	height: 100%;
+	overflow: hidden;
+	
 	-webkit-display: flex;
 	-moz-display: flex;
 	-o-display: flex;
@@ -100,9 +102,11 @@ main{
 	right: 1rem;
     text-align: center;
 }
+
 .social a{
 	margin: 0 .25rem;
 }
+
 .social a i{
 	color: #E6F1EB;
 	font-size: 2rem;
@@ -121,6 +125,60 @@ main{
 	    -ms-transform: scale(.99) translatey(-3px);
 	     -o-transform: scale(.99) translatey(-3px);
 	        transform: scale(.99) translatey(-3px);
+}
+
+.btnMenu{
+	position: fixed;
+	top: 2rem;
+	right: 2rem;
+	color: white;
+	font-size: 2rem;
+	cursor: pointer;
+	z-index: 11;
+	text-shadow: 0 0 3px black;
+	-webkit-transition: all .5s ease;
+	   -moz-transition: all .5s ease;
+	    -ms-transition: all .5s ease;
+	     -o-transition: all .5s ease;
+	        transition: all .5s ease;
+}
+
+.btnMenu:hover{
+	color: #ddd;
+}
+
+.btnMenu + input{
+	display: none;
+}
+
+.btnMenu + input:checked + nav{
+	-webkit-transform: translatey(0);
+	   -moz-transform: translatey(0);
+		-ms-transform: translatey(0);
+		 -o-transform: translatey(0);
+			transform: translatey(0);
+}
+
+.btnMenu + input + nav{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100vw;
+	height: 100vh;
+	background: rgba(0,0,0,.05);
+	z-index: 10;
+	
+	-webkit-transition: all .5s ease;
+	   -moz-transition: all .5s ease;
+	    -ms-transition: all .5s ease;
+	     -o-transition: all .5s ease;
+	        transition: all .5s ease;
+	
+	-webkit-transform: translatey(-100%);
+	   -moz-transform: translatey(-100%);
+		-ms-transform: translatey(-100%);
+		 -o-transform: translatey(-100%);
+			transform: translatey(-100%);
 }
 
 @-webkit-keyframes scaleIn{
