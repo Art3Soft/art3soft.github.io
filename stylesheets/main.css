@@ -1,3 +1,5 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,500,700,100);
+
 /* Reset CSS */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -63,16 +65,14 @@ img{
 	animation: scaleIn 20s infinite ease;
 }
 
-body{
+main{
+	height: 100%;
+	overflow: hidden;
+	
 	background-image: -webkit-radial-gradient(center, #95FF05, #009344);
 	background-image: -moz-radial-gradient(center, #95FF05, #009344);
 	background-image: -o-radial-gradient(center, #95FF05, #009344);
 	background-image: radial-gradient(center, #95FF05, #009344);
-}
-
-main{
-	height: 100%;
-	overflow: hidden;
 	
 	-webkit-display: flex;
 	-moz-display: flex;
@@ -117,6 +117,7 @@ main{
 	     -o-transition: all .5s ease;
 	        transition: all .5s ease;
 }
+
 .social a i:hover{
 	color: #fff;
 	text-shadow: 0 0 5px black;
@@ -171,13 +172,13 @@ main{
 			transform: translatey(0);
 }
 
-.btnMenu + input + nav{
+nav{
 	position: fixed;
 	top: 0;
 	left: 0;
 	width: 100vw;
 	height: 100vh;
-	background: rgba(0,0,0,.05);
+	background: rgba(0,0,0,.5);
 	z-index: 10;
 	
 	-webkit-transition: all .5s ease;
@@ -191,6 +192,83 @@ main{
 		-ms-transform: translatey(-100%);
 		 -o-transform: translatey(-100%);
 			transform: translatey(-100%);
+}
+
+nav ul{
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+	width: 230px;
+	max-height: 260px;
+	
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -o-flex;
+	display: flex;
+	
+	-webkit-flex-wrap: wrap;
+	-moz-flex-wrap: wrap;
+	-o-flex-wrap: wrap;
+	flex-wrap: wrap;
+	
+	-webkit-justify-content: center;
+	-moz-justify-content: center;
+	-o-justify-content: center;
+	justify-content: center;
+}
+
+nav ul li{
+	width: 100%;
+	margin: .25rem 0;
+	text-align: center;
+	max-height: initial;
+}
+
+nav ul li a{
+	color: white;
+	font-size: 2rem;
+	font-family: "Roboto";
+	text-shadow: 0 0 12px #031701;
+	display: block;
+	position: relative;
+	
+	-webkit-transition: all .35s ease;
+	   -moz-transition: all .35s ease;
+	    -ms-transition: all .35s ease;
+	     -o-transition: all .35s ease;
+	        transition: all .35s ease;
+}
+
+nav ul li a:before{
+	position: absolute;
+	top: 140%;
+	left: 0;
+	right: 0;
+	width: 0;
+	height: 2px;
+	margin: auto;
+	border-radius: 50px;
+	content: "";
+	
+	-webkit-transition: all .35s ease;
+	   -moz-transition: all .35s ease;
+	    -ms-transition: all .35s ease;
+	     -o-transition: all .35s ease;
+	        transition: all .35s ease;
+}
+
+nav ul li a:hover,
+nav ul li a.active{
+	color: #08F174;
+}
+
+nav ul li a:hover:before,
+nav ul li a.active:before{
+	width: 100%;
+	background: #08F174;
 }
 
 @-webkit-keyframes scaleIn{

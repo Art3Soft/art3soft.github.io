@@ -1,1 +1,4 @@
+*.db
+*.log
+*.map 
 node_modules/
