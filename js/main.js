@@ -3,6 +3,7 @@ window.onload = function(){
 	
 	// evento del boton del menu
 	$(".btnMenu").click(function(){
+		$("body").toggleClass("menu-open");
 		$(this).toggleClass("active");
 	});
 	

@@ -54,6 +54,28 @@ a{
 	text-decoration: none;
 }
 
+body.menu-open{
+	-webkit-perspective: 1000px;
+	-moz-perspective: 1000px;
+	-o-perspective: 1000px;
+	perspective: 1000px;
+	overflow: hidden;
+}
+
+body.menu-open main{	
+	-webkit-transform: translatez(-500px) rotatex(360deg);
+	-moz-transform: translatez(-500px) rotatex(360deg);
+	-o-transform: translatez(-500px) rotatex(360deg);
+	transform: translatez(-500px) rotatex(360deg);
+	
+	border-radius: 5px;
+}
+
+body.menu-open .social a i {
+    color: #202120;
+    text-shadow: 0 0 3px rgba(0, 0, 0, 0.07);
+}
+
 img{
 	display: block;
 	max-width: 100%;
@@ -93,6 +115,16 @@ main{
 	-moz-flex-wrap: wrap;
 	-o-flex-wrap: wrap;
 	flex-wrap: wrap;
+	
+	-webkit-transform: translatez(0px) rotatex(0deg);
+	-moz-transform: translatez(0px) rotatex(0deg);
+	-o-transform: translatez(0px) rotatex(0deg);
+	transform: translatez(0px) rotatex(0deg);
+	
+	-webkit-transition: transform .3s ease;
+	-moz-transition: transform .3s ease;
+	-o-transition: transform .3s ease;
+	transition: transform .3s ease;
 }
 
 .social{
@@ -181,11 +213,11 @@ nav{
 	background: rgba(0,0,0,.5);
 	z-index: 10;
 	
-	-webkit-transition: all .5s ease;
-	   -moz-transition: all .5s ease;
-	    -ms-transition: all .5s ease;
-	     -o-transition: all .5s ease;
-	        transition: all .5s ease;
+	-webkit-transition: all .5s .05s ease;
+	   -moz-transition: all .5s .05s ease;
+	    -ms-transition: all .5s .05s ease;
+	     -o-transition: all .5s .05s ease;
+	        transition: all .5s .05s ease;
 	
 	-webkit-transform: translatey(-100%);
 	   -moz-transform: translatey(-100%);
