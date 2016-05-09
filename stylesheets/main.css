@@ -143,6 +143,18 @@ main{
 	        transition: all .5s ease;
 }
 
+.btnMenu i:last-child{
+	display: none;
+}
+
+.btnMenu.active i:first-child{
+	display: none;
+}
+
+.btnMenu.active i:last-child{
+	display: block;
+}
+
 .btnMenu:hover{
 	color: #ddd;
 }
