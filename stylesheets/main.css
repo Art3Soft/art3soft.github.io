@@ -267,7 +267,7 @@ nav ul li a.active{
 
 nav ul li a:hover:before,
 nav ul li a.active:before{
-	width: 100%;
+	width: 25%;
 	background: #08F174;
 }
 
