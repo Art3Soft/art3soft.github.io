@@ -1,6 +1,19 @@
 {
-    "name": "Art 3 Soft Web Site",
-    "version": "0.1",
-    "author": "Art 3 Soft",
-    "dependencies": {}
+  "name": "SitioWeb_Art3Soft",
+  "version": "0.0.1",
+  "description": "SitioWeb Art3Soft",
+  "main": "app.js",
+  "scripts": {
+    "test": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://dmsanchez86_@bitbucket.org/art3soft/art3soft.bitbucket.org.git"
+  },
+  "author": "Art3Soft",
+  "license": "MIT",
+  "homepage": "https://bitbucket.org/art3soft/art3soft.bitbucket.org#readme",
+  "dependencies": {
+    "jquery": "^2.2.3"
+  }
 }
