@@ -64,10 +64,10 @@ img{
 }
 
 body{
-	background-image: -webkit-radial-gradient(center, #95FF05, #355427);
-	background-image: -moz-radial-gradient(center, #95FF05, #355427);
-	background-image: -o-radial-gradient(center, #95FF05, #355427);
-	background-image: radial-gradient(center, #95FF05, #355427);
+	background-image: -webkit-radial-gradient(center, #95FF05, #009344);
+	background-image: -moz-radial-gradient(center, #95FF05, #009344);
+	background-image: -o-radial-gradient(center, #95FF05, #009344);
+	background-image: radial-gradient(center, #95FF05, #009344);
 }
 
 main{
@@ -97,6 +97,8 @@ main{
 	position: absolute;
 	bottom: 1rem;
 	left: 1rem;
+	right: 1rem;
+    text-align: center;
 }
 .social a{
 	margin: 0 .25rem;
@@ -104,19 +106,21 @@ main{
 .social a i{
 	color: #E6F1EB;
 	font-size: 2rem;
-	-webkit-transition: all .25s ease;
-	   -moz-transition: all .25s ease;
-	    -ms-transition: all .25s ease;
-	     -o-transition: all .25s ease;
-	        transition: all .25s ease;
+	text-shadow: 0 0 3px black;
+	-webkit-transition: all .5s ease;
+	   -moz-transition: all .5s ease;
+	    -ms-transition: all .5s ease;
+	     -o-transition: all .5s ease;
+	        transition: all .5s ease;
 }
 .social a i:hover{
-	color: #95FF05;
-	-webkit-transform: scale(.9);
-	   -moz-transform: scale(.9);
-	    -ms-transform: scale(.9);
-	     -o-transform: scale(.9);
-	        transform: scale(.9);
+	color: #fff;
+	text-shadow: 0 0 5px black;
+	-webkit-transform: scale(.99) translatey(-3px);
+	   -moz-transform: scale(.99) translatey(-3px);
+	    -ms-transform: scale(.99) translatey(-3px);
+	     -o-transform: scale(.99) translatey(-3px);
+	        transform: scale(.99) translatey(-3px);
 }
 
 @-webkit-keyframes scaleIn{
@@ -128,19 +132,19 @@ main{
 		        transform: scale(1);
 	}
 	30%, 70%{
-		-webkit-transform: scale(1.15);
-		   -moz-transform: scale(1.15);
-		    -ms-transform: scale(1.15);
-		     -o-transform: scale(1.15);
-		        transform: scale(1.15);
+		-webkit-transform: scale(1.15) rotate(-1deg);
+		   -moz-transform: scale(1.15) rotate(-1deg);
+		    -ms-transform: scale(1.15) rotate(-1deg);
+		     -o-transform: scale(1.15) rotate(-1deg);
+		        transform: scale(1.15) rotate(-1deg);
 	}
 
-	40%{
-		-webkit-transform: scale(.85);
-		   -moz-transform: scale(.85);
-		    -ms-transform: scale(.85);
-		     -o-transform: scale(.85);
-		        transform: scale(.85);
+	40%, 80%{
+		-webkit-transform: scale(.85) rotate(1deg);
+		   -moz-transform: scale(.85) rotate(1deg);
+		    -ms-transform: scale(.85) rotate(1deg);
+		     -o-transform: scale(.85) rotate(1deg);
+		        transform: scale(.85) rotate(1deg);
 	}
 }
 
@@ -153,19 +157,19 @@ main{
 		        transform: scale(1);
 	}
 	30%, 70%{
-		-webkit-transform: scale(1.15);
-		   -moz-transform: scale(1.15);
-		    -ms-transform: scale(1.15);
-		     -o-transform: scale(1.15);
-		        transform: scale(1.15);
+		-webkit-transform: scale(1.15) rotate(-1deg);
+		   -moz-transform: scale(1.15) rotate(-1deg);
+		    -ms-transform: scale(1.15) rotate(-1deg);
+		     -o-transform: scale(1.15) rotate(-1deg);
+		        transform: scale(1.15) rotate(-1deg);
 	}
 
-	40%{
-		-webkit-transform: scale(.85);
-		   -moz-transform: scale(.85);
-		    -ms-transform: scale(.85);
-		     -o-transform: scale(.85);
-		        transform: scale(.85);
+	40%, 80%{
+		-webkit-transform: scale(.85) rotate(1deg);
+		   -moz-transform: scale(.85) rotate(1deg);
+		    -ms-transform: scale(.85) rotate(1deg);
+		     -o-transform: scale(.85) rotate(1deg);
+		        transform: scale(.85) rotate(1deg);
 	}
 }
 
@@ -178,19 +182,19 @@ main{
 		        transform: scale(1);
 	}
 	30%, 70%{
-		-webkit-transform: scale(1.15);
-		   -moz-transform: scale(1.15);
-		    -ms-transform: scale(1.15);
-		     -o-transform: scale(1.15);
-		        transform: scale(1.15);
+		-webkit-transform: scale(1.15) rotate(-1deg);
+		   -moz-transform: scale(1.15) rotate(-1deg);
+		    -ms-transform: scale(1.15) rotate(-1deg);
+		     -o-transform: scale(1.15) rotate(-1deg);
+		        transform: scale(1.15) rotate(-1deg);
 	}
 
-	40%{
-		-webkit-transform: scale(.85);
-		   -moz-transform: scale(.85);
-		    -ms-transform: scale(.85);
-		     -o-transform: scale(.85);
-		        transform: scale(.85);
+	40%, 80%{
+		-webkit-transform: scale(.85) rotate(1deg);
+		   -moz-transform: scale(.85) rotate(1deg);
+		    -ms-transform: scale(.85) rotate(1deg);
+		     -o-transform: scale(.85) rotate(1deg);
+		        transform: scale(.85) rotate(1deg);
 	}
 }
 
@@ -203,18 +207,18 @@ main{
 		        transform: scale(1);
 	}
 	30%, 70%{
-		-webkit-transform: scale(1.15);
-		   -moz-transform: scale(1.15);
-		    -ms-transform: scale(1.15);
-		     -o-transform: scale(1.15);
-		        transform: scale(1.15);
+		-webkit-transform: scale(1.15) rotate(-1deg);
+		   -moz-transform: scale(1.15) rotate(-1deg);
+		    -ms-transform: scale(1.15) rotate(-1deg);
+		     -o-transform: scale(1.15) rotate(-1deg);
+		        transform: scale(1.15) rotate(-1deg);
 	}
 
-	40%{
-		-webkit-transform: scale(.85);
-		   -moz-transform: scale(.85);
-		    -ms-transform: scale(.85);
-		     -o-transform: scale(.85);
-		        transform: scale(.85);
+	40%, 80%{
+		-webkit-transform: scale(.85) rotate(1deg);
+		   -moz-transform: scale(.85) rotate(1deg);
+		    -ms-transform: scale(.85) rotate(1deg);
+		     -o-transform: scale(.85) rotate(1deg);
+		        transform: scale(.85) rotate(1deg);
 	}
 }
