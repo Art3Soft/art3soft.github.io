@@ -1,4 +1,5 @@
-# Art 3 Soft
+***
+# **Art 3 Soft**
 ***
 
 ## Página Web v0.1 
@@ -9,15 +10,15 @@
 2. Luego instalar con [NPM](https://www.npmjs.com/) el modulo de [SASS](https://www.npmjs.com/package/node-sass)
 
 ```bash
-	# instalamos por la terminal con NPM - Node-Sass
-	npm install node-sass
+# instalamos por la terminal con NPM - Node-Sass
+npm install node-sass
 ```
 
 3. Ejecutar el comando
 
 ```bash
-	# node-sass [archivo-sass] [archivo-css] [option] (-w es para que este constantemente vigilando el archivo)
-	node-sass sass/base.scss stylesheets/main.css -w
+# node-sass [archivo-sass] [archivo-css] [option](-w es para que este constantemente vigilando el archivo)
+node-sass sass/base.scss stylesheets/main.css -w
 ```
 
 ### Tecnologías Usadas
