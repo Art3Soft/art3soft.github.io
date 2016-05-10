@@ -400,6 +400,33 @@ nav ul li a.active:before {
     -o-transform: scale(0.85) rotate(1deg);
     transform: scale(0.85) rotate(1deg); } }
 
+@-webkit-keyframes rotatey {
+  50% {
+    -webkit-transform: translatez(-500px) rotatey(-20deg);
+    -khtml-transform: translatez(-500px) rotatey(-20deg);
+    -moz-transform: translatez(-500px) rotatey(-20deg);
+    -ms-transform: translatez(-500px) rotatey(-20deg);
+    -o-transform: translatez(-500px) rotatey(-20deg);
+    transform: translatez(-500px) rotatey(-20deg); } }
+
+@-moz-keyframes rotatey {
+  50% {
+    -webkit-transform: translatez(-500px) rotatey(-20deg);
+    -khtml-transform: translatez(-500px) rotatey(-20deg);
+    -moz-transform: translatez(-500px) rotatey(-20deg);
+    -ms-transform: translatez(-500px) rotatey(-20deg);
+    -o-transform: translatez(-500px) rotatey(-20deg);
+    transform: translatez(-500px) rotatey(-20deg); } }
+
+@-o-keyframes rotatey {
+  50% {
+    -webkit-transform: translatez(-500px) rotatey(-20deg);
+    -khtml-transform: translatez(-500px) rotatey(-20deg);
+    -moz-transform: translatez(-500px) rotatey(-20deg);
+    -ms-transform: translatez(-500px) rotatey(-20deg);
+    -o-transform: translatez(-500px) rotatey(-20deg);
+    transform: translatez(-500px) rotatey(-20deg); } }
+
 @keyframes rotatey {
   50% {
     -webkit-transform: translatez(-500px) rotatey(-20deg);
