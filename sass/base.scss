@@ -155,4 +155,18 @@ nav ul li a.active:before{
 	background: #08F174;
 }
 
+.hashtag{
+	position: absolute;
+	top: 3rem;
+	left: 3rem;
+	font-size: 1.2rem;
+	color: white;
+
+	span{
+		font-family: "Roboto";
+		font-weight: bold;
+	}
+}
+
 @import 'keyframes';
+@import 'queries';

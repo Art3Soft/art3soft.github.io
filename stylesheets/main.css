@@ -308,6 +308,16 @@ nav ul li a.active:before {
   width: 25%;
   background: #08F174; }
 
+.hashtag {
+  position: absolute;
+  top: 3rem;
+  left: 3rem;
+  font-size: 1.2rem;
+  color: white; }
+  .hashtag span {
+    font-family: "Roboto";
+    font-weight: bold; }
+
 @-webkit-keyframes scaleIn {
   0%, 100% {
     -webkit-transform: scale(1);
@@ -435,3 +445,8 @@ nav ul li a.active:before {
     -ms-transform: translatez(-500px) rotatey(-20deg);
     -o-transform: translatez(-500px) rotatey(-20deg);
     transform: translatez(-500px) rotatey(-20deg); } }
+
+@media (max-width: 600px) {
+  .hashtag {
+    top: 2.3rem;
+    left: 1rem; } }

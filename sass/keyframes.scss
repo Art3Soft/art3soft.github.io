@@ -47,7 +47,6 @@
 	}
 }
 
-
 @-webkit-keyframes rotatey{
 	50%{
 		@include transform(translatez(-500px) rotatey(-20deg));
