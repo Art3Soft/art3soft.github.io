@@ -1,0 +1,35 @@
+               _   ____   _____        __ _   
+    /\        | | |___ \ / ____|      / _| |  
+   /  \   _ __| |_  __) | (___   ___ | |_| |_ 
+  / /\ \ | '__| __||__ < \___ \ / _ \|  _| __|
+ / ____ \| |  | |_ ___) |____) | (_) | | | |_ 
+/_/    \_\_|   \__|____/|_____/ \___/|_|  \__|
+
+                            
+/* TEAM */           
+Name: Art3Soft   
+Site: http://art3soft.bitbucketorg - art3soft@gmail.com                           
+Twitter: @art3soft
+Location: Manizales, Colombia
+
+/* THANKS */
+Name: Daniel Mauricio Sanchez
+Rol: Main Developer
+Contact: dmsanchez86@misena.edu.co
+Site: http://dmsanchez86.github.io
+Twitter: @dmsanchez86
+Location: Manizales, Colombia
+
+Name: Jorge Hernan Caicedo
+Rol: Developer
+Location: Manizales, Colombia
+
+Name: Jairo Ernesto Giraldo
+Rol: Developer
+Location: Manizales, Colombia
+                                
+/* SITE */
+Last update: 2016/05/14
+Standards: HTML5, CSS3                            
+Components: Reset CSS, jQuery, Node JS, SASS                            
+Software: Sublime Text 3                                      

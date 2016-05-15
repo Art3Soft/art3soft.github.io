@@ -1,4 +1,5 @@
 *.db
 *.log
 *.map 
+*.sass-cache/
 node_modules/
