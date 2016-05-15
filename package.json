@@ -4,7 +4,8 @@
   "description": "SitioWeb Art3Soft",
   "main": "app.js",
   "scripts": {
-    "test": ""
+    "build": "browserify app.js -o js/main.js",
+    "watch": "watchify app.js -o js/main.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,9 @@
   "homepage": "https://bitbucket.org/art3soft/art3soft.bitbucket.org#readme",
   "dependencies": {
     "jquery": "^2.2.3"
+  },
+  "devDependencies": {
+    "browserify": "^13.0.1",
+    "watchify": "^3.7.0"
   }
 }
