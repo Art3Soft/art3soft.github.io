@@ -1,17 +1,9 @@
-var $ = require('jquery');
+var $ = require('jquery'); // importamos jQuery
+var functions = require('./scripts/base.js'); // importamos el archivos de las funciones basicas
 
 window.onload = function(){
 	console.log("------------------- Art 3 Soft -------------------");
-	
-	// evento del boton del menu
-	$(".btnMenu").click(function(){
-		$("body").toggleClass("menu-open");
-		$(this).toggleClass("active");
-	});
-	
-	// evento de los links del menu
-	$(".nav a").click(function(){
-		$(".nav a").removeClass("active");
-		$(this).addClass("active");
-	});
+
+	functions.btnMenu();
+	functions.linksMenu();
 }
