@@ -40,6 +40,13 @@ npm run build
 npm run watch
 ```
 
+5. Para minificar los archivos javascript con gulp
+
+```bash
+# ejecutar el comando en la terminal
+gulp [nombre tarea]
+```
+
 ### Tecnologías Usadas
 
 * HTML5
