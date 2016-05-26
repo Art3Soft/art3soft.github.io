@@ -16,8 +16,8 @@
 
 ### Uso del preprocesador SASS con NODE JS
 
-1. Tener instalado [Node.JS](https://nodejs.org/en/)
-2. Luego instalar con [NPM](https://www.npmjs.com/) el modulo de [SASS](https://www.npmjs.com/package/node-sass)
+> Tener instalado [Node.JS](https://nodejs.org/en/)
+> Luego instalar con [NPM](https://www.npmjs.com/) el modulo de [SASS](https://www.npmjs.com/package/node-sass)
 
 ```bash
 # desde linux instalamos ruby
@@ -30,7 +30,7 @@ sudo apt-get install ruby-sass
 npm install node-sass
 ```
 
-3. Ejecutar el comando
+> Ejecutar el comando
 
 ```bash
 # ruby desde linux
@@ -40,7 +40,7 @@ sass --watch sass/base.scss:stylesheets/main.css
 node-sass sass/base.scss stylesheets/main.css -w
 ```
 
-4. Para compilar los archivos javascript con **browserify**
+> Para compilar los archivos javascript con **browserify**
 
 ```bash
 # genera el archivo main.js en la carpeta js
@@ -50,7 +50,7 @@ npm run build
 npm run watch
 ```
 
-5. Para minificar los archivos javascript con gulp
+> Para minificar los archivos javascript con gulp
 
 ```bash
 # ejecutar el comando en la terminal
@@ -70,3 +70,5 @@ gulp [nombre tarea]
 * Node-SASS
 
 > Alojada en los servidores de Bitbucket. **[ver página](http://art3soft.bitbucket.org)**
+
+`Desarrollador [Daniel M. Sánchez](http://github.com/dmsanchez)`
