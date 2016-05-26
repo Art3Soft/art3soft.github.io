@@ -71,4 +71,4 @@ gulp [nombre tarea]
 
 > Alojada en los servidores de Bitbucket. **[ver página](http://art3soft.bitbucket.org)**
 
-`Desarrollador [Daniel M. Sánchez](http://github.com/dmsanchez)`
+`Desarrollador `[Daniel M. Sánchez](http://github.com/dmsanchez)
