@@ -1,3 +1,13 @@
+```
+               _   ____   _____        __ _   
+    /\        | | |___ \ / ____|      / _| |  
+   /  \   _ __| |_  __) | (___   ___ | |_| |_ 
+  / /\ \ | '__| __||__ < \___ \ / _ \|  _| __|
+ / ____ \| |  | |_ ___) |____) | (_) | | | |_ 
+/_/    \_\_|   \__|____/|_____/ \___/|_|  \__|
+                                              
+```
+
 ***
 # **Art 3 Soft**
 ***
@@ -30,7 +40,7 @@ sass --watch sass/base.scss:stylesheets/main.css
 node-sass sass/base.scss stylesheets/main.css -w
 ```
 
-4. Para compilar los archivos javascript con **borwerify**
+4. Para compilar los archivos javascript con **browserify**
 
 ```bash
 # genera el archivo main.js en la carpeta js
@@ -53,5 +63,10 @@ gulp [nombre tarea]
 * CSS3
 * JavaScript
 * SASS
+* Node JS
+* Browserify
+* Gulp
+* THREE JS
+* Node-SASS
 
 > Alojada en los servidores de Bitbucket. **[ver página](http://art3soft.bitbucket.org)**
