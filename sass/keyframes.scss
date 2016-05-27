@@ -1,49 +1,49 @@
 @-webkit-keyframes scaleIn{
 	0%, 100%{
-		@include transform(scale(1));
+		@include transform(scale(.7));
 	}
 	30%, 70%{
-		@include transform(scale(1.15) rotate(-1deg));
+		@include transform(scale(.73) rotate(-1deg));
 	}
 
 	40%, 80%{
-		@include transform(scale(.85) rotate(1deg));
+		@include transform(scale(.75) rotate(1deg));
 	}
 }
 @-moz-keyframes scaleIn{
 	0%, 100%{
-		@include transform(scale(1));
+		@include transform(scale(.7));
 	}
 	30%, 70%{
-		@include transform(scale(1.15) rotate(-1deg));
+		@include transform(scale(.73) rotate(-1deg));
 	}
 
 	40%, 80%{
-		@include transform(scale(.85) rotate(1deg));
+		@include transform(scale(.75) rotate(1deg));
 	}
 }
 @-o-keyframes scaleIn{
 	0%, 100%{
-		@include transform(scale(1));
+		@include transform(scale(.7));
 	}
 	30%, 70%{
-		@include transform(scale(1.15) rotate(-1deg));
+		@include transform(scale(.73) rotate(-1deg));
 	}
 
 	40%, 80%{
-		@include transform(scale(.85) rotate(1deg));
+		@include transform(scale(.75) rotate(1deg));
 	}
 }
 @keyframes scaleIn{
 	0%, 100%{
-		@include transform(scale(1));
+		@include transform(scale(.7));
 	}
 	30%, 70%{
-		@include transform(scale(1.15) rotate(-1deg));
+		@include transform(scale(.73) rotate(-1deg));
 	}
 
 	40%, 80%{
-		@include transform(scale(.85) rotate(1deg));
+		@include transform(scale(.75) rotate(1deg));
 	}
 }
 
