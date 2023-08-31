@@ -69,6 +69,6 @@ gulp [nombre tarea]
 * THREE JS
 * Node-SASS
 
-> Alojada en los servidores de Bitbucket. **[ver página](http://art3soft.bitbucket.org)**
+> Alojada en los servidores de Github. **[ver página](http://art3soft.github.io)**
 
-`Desarrollador `[Daniel M. Sánchez](http://github.com/dmsanchez)
+`Desarrollador `[Daniel M. Sánchez](http://github.com/dmsanchez86)
